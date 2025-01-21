@@ -61,6 +61,7 @@ nav li a{
 }
 /*banner style*/
 .banner{
+  align-items: center;
   justify-content: space-between;
   margin: 20px 140px;
 }
@@ -83,4 +84,27 @@ nav li a{
   background-color: #111111;
   padding: 10px 10px;
   border-radius: 12px;
+}
+
+/*media query*/
+@media (max-width: 576px) {
+  .display-flex{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .nav-title {
+    font-size: 16px;
+}
+
+  .banner-title {
+    font-size: 24px;
+}
+
+  .banner-description {
+    font-size: 14px;
+}
+
+  .nav-btn {
+    font-size: 14px;
+    padding: 8px 16px;
+}
 }
