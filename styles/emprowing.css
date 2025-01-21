@@ -86,25 +86,112 @@ nav li a{
   border-radius: 12px;
 }
 
-/*media query*/
-@media (max-width: 576px) {
-  .display-flex{
-    grid-template-columns: repeat(1,1fr);
-  }
-  .nav-title {
-    font-size: 16px;
+
+/* Title Styling */
+.standard-title {
+  font-size: 46px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #000000;
 }
 
-  .banner-title {
-    font-size: 24px;
+/* Container Box styles */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
 }
 
-  .banner-description {
-    font-size: 14px;
+/* Common Styling */
+.standard-content {
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
-  .nav-btn {
-    font-size: 14px;
-    padding: 8px 16px;
+
+/* Box 1 */
+.box1 {
+  background-color: #DEF5FF;
+  
 }
+
+/* Box 2 */
+.box2 {
+  background-color: #FFF4DC; 
+}
+
+/* Box 3*/
+.box3 {
+  background-color: #F2E8FF;
+}
+
+/* Button  Styling */
+.standard-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* Button 1  */
+.btn-red {
+  background-color: #ff4d4d; 
+}
+
+.btn-red:hover {
+  background-color: #e60000;
+}
+
+/* Button 2  */
+.btn-blue {
+  background-color: #4d79ff;
+}
+
+.btn-blue {
+  background-color: #0039e6;
+}
+
+/* Button 3 */
+.btn-green {
+  background-color: #4dff88;
+}
+
+.btn-green {
+  background-color: #00e64d;
+}
+
+/* Image Styling */
+.standard-img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+/* Subtitle Styling */
+.standard-title-2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 80px;
+}
+
+/* Description Styling */
+.standard-description {
+  font-size: 16px;
+  color: #808080;
+  margin-bottom: 20px;
 }
