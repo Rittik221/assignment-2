@@ -60,6 +60,7 @@ nav li a{
   border-radius: 12px;
 }
 /*banner style*/
+
 .banner{
   align-items: center;
   justify-content: space-between;
@@ -89,27 +90,28 @@ nav li a{
 
 /* Title Styling */
 .standard-title {
-  font-size: 46px;
+  font-size: 45px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 60px;
-  color: #000000;
+  margin-bottom: 32px;
+  color: #202020;
 }
 
 /* Container Box styles */
 .box-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-left: 140px;
+  margin-bottom: 60px;
+  margin-top: 60px;
   gap: 28px;
-  flex-wrap: wrap;
 }
 
 /* Common Styling */
 .standard-content {
   max-width: 350px;
   padding: 20px;
-  border-radius: 18px;
+  border-radius: 19px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -134,41 +136,19 @@ nav li a{
 
 /* Button  Styling */
 .standard-btn {
-  padding: 10px 20px;
+  font-weight: bold;
   font-size: 16px;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+
+}
+.blue{
+  color: #64C8FF;
+}
+.red{
+  color: #F0AA00;
 }
 
-/* Button 1  */
-.btn-red {
-  background-color: #ff4d4d; 
-}
-
-.btn-red:hover {
-  background-color: #e60000;
-}
-
-/* Button 2  */
-.btn-blue {
-  background-color: #4d79ff;
-}
-
-.btn-blue {
-  background-color: #0039e6;
-}
-
-/* Button 3 */
-.btn-green {
-  background-color: #4dff88;
-}
-
-.btn-green {
-  background-color: #00e64d;
+.green{
+  color: #8700FF;
 }
 
 /* Image Styling */
@@ -177,8 +157,6 @@ nav li a{
   max-width: 150px;
   height: auto;
   margin-bottom: 15px;
-  border-radius: 50%;
-  border: 3px solid #fff;
 }
 
 /* Subtitle Styling */
@@ -194,4 +172,76 @@ nav li a{
   font-size: 16px;
   color: #808080;
   margin-bottom: 20px;
+}
+
+/**card styling*/
+.section-title1{
+  font-weight: bold;
+  font-size: 46px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 60px;
+  color: #000000;
+}
+
+/**card-row style*/
+.bg-clr{
+  background-color: #fea10131;
+}
+
+.main-img{
+  padding-right: 19px;
+}
+.card-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  max-width:1440px;
+  margin-left: 699px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+.main-img2{
+  padding: 10x;
+  border-radius: 10px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 140px;
+  margin-right: 450px;
+}
+.section-title2{
+  max-width: 400px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 140px;
+  margin-top: 34px;
+  margin-bottom: 45px;
+}
+.section-description{
+  max-width: 433px;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 140px;
+  margin-top: 34px;
+  margin-bottom: 45px;
+}
+.story2{
+  max-width: 290px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+.title-card{
+  max-width: 214px;
+  font-weight: 400px;
+  font-weight: 15px;
+  color: #000000;
+  margin-left: 33px;
+  margin-right: 54px;
+  margin-top: 43px;
+  margin-bottom: 33px;
+}
+.card-story{
+  background-color: #FFFFFF;
+  border-radius: 16px;
 }
