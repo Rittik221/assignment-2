@@ -88,7 +88,7 @@ nav li a{
 }
 
 
-/* Title Styling */
+
 .standard-title {
   font-size: 45px;
   font-weight: bold;
@@ -97,39 +97,39 @@ nav li a{
   color: #202020;
 }
 
-/* Container Box styles */
+
 .box-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-left: 140px;
+  margin-right: 140px;
+  margin-top: 200px;
   margin-bottom: 60px;
-  margin-top: 60px;
   gap: 28px;
 }
 
-/* Common Styling */
+
 .standard-content {
   max-width: 350px;
   padding: 20px;
   border-radius: 19px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 }
 
 
-/* Box 1 */
+
 .box1 {
   background-color: #DEF5FF;
   
 }
 
-/* Box 2 */
+
 .box2 {
   background-color: #FFF4DC; 
 }
 
-/* Box 3*/
+
 .box3 {
   background-color: #F2E8FF;
 }
@@ -151,7 +151,7 @@ nav li a{
   color: #8700FF;
 }
 
-/* Image Styling */
+
 .standard-img {
   width: 100%;
   max-width: 150px;
@@ -159,7 +159,6 @@ nav li a{
   margin-bottom: 15px;
 }
 
-/* Subtitle Styling */
 .standard-title-2 {
   font-size: 20px;
   font-weight: 600;
@@ -167,14 +166,13 @@ nav li a{
   margin-bottom: 80px;
 }
 
-/* Description Styling */
+
 .standard-description {
   font-size: 16px;
   color: #808080;
   margin-bottom: 20px;
 }
 
-/**card styling*/
 .section-title1{
   font-weight: bold;
   font-size: 46px;
@@ -195,9 +193,11 @@ nav li a{
 .card-img{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
   gap: 18px;
   max-width:1440px;
-  margin-left: 699px;
+  margin-right: 140px;
+ margin-left: 699px;
   margin-bottom: 80px;
   margin-top: 80px;
 }
@@ -244,4 +244,21 @@ nav li a{
 .card-story{
   background-color: #FFFFFF;
   border-radius: 16px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px 10px ;
+  border-radius: 12px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
